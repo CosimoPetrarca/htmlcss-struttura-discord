@@ -38,6 +38,14 @@ body{
     height: 500px;
 }
 
+.debug .contenitorefooter{
+    background-color: #23272a;
+    height: 100px;
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color: white;
+}
+
 .box{
     border: 1px dashed black;
     background-color: #daa520;
@@ -47,11 +55,10 @@ body{
 
 /* <!-- Header --> */
 
-.contenitore1, .contenitore2, .contenitore3, .contenitore4, .contenitore5, .contenitore6{
+.contenitore1, .contenitore2, .contenitore3, .contenitore4, .contenitore5, .contenitore6, .contenitorefooter{
     display: flex;
     justify-content: center;
     align-items: center;
-    
     
 }
 
@@ -119,6 +126,26 @@ body{
     width: 120px;
     height: 400px;
     border: 1px dashed white;
+
+}
+
+.contenitorebottoni{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7fffd4;
+    width: 720px;
+    height: 50px;
+    
+    
+    
+}
+
+.boxlogofooter, .boxbottonefooter{
+
+    background-color: #ffb6c1;
+    border: 1px dashed black;
+    
 
 }
 

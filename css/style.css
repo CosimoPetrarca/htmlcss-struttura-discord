@@ -14,9 +14,14 @@ body{
     
 }
 
+.debug .contenitore2{
+    background-color: #00008b;
+    height: 400px;
+}
+
 .box{
     border: 1px dashed black;
-    background-color: orange;
+    background-color: #daa520;
     margin: 10px 0;
     padding: 5px;
     
@@ -25,13 +30,13 @@ body{
 /* <!-- Header --> */
 
 
-.contenitore1{
+.contenitore1, .contenitore2{
     display: flex;
     justify-content: center;
+    align-items: center;
+    
     
 }
-
-
 
 .box1{
     width: 120px;
@@ -43,12 +48,19 @@ body{
     text-align: center;
 }
 
-
 .box3{
     width: 120px;
     text-align: right;
 }
 
+.boxrosa{
+    background-color: #ee82ee;
+    height: 300px;
+    width: 600px;
+   
+    
+
+}
 
 
 

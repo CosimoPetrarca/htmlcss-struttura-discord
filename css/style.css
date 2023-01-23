@@ -1,5 +1,54 @@
+/* <!-- Reset --> */
+
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+ /* <!-- Debug --> */
+
+.debug .contenitore1{
+
+    background-color: #add8e6;
+    
+}
+
+.box{
+    border: 1px dashed black;
+    background-color: orange;
+    margin: 10px 0;
+    padding: 5px;
+    
+}
+
+/* <!-- Header --> */
+
+
+.contenitore1{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.box1{
+    width: 120px;
+    
+}
+
+.box2{
+    width: 520px;
+    text-align: center;
+}
+
+
+.box3{
+    width: 120px;
+    text-align: right;
+}
+
+
+
+

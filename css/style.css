@@ -29,6 +29,12 @@ body{
     height: 500px;
 }
 
+.debug .contenitore5{
+    background-color: #d3d3d3;
+    height: 650px;
+}
+
+
 
 
 
@@ -43,7 +49,7 @@ body{
 /* <!-- Header --> */
 
 
-.contenitore1, .contenitore2, .contenitore3, .contenitore4{
+.contenitore1, .contenitore2, .contenitore3, .contenitore4, .contenitore5{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,6 +95,14 @@ body{
     height: 400px;
     width: 400px;
     border: 1px dashed black;
+
+}
+
+.boxverde{
+    background-color: #228b22;
+    border: 1px dashed black;
+    height: 600px;
+    width: 700px;
 
 }
 
